@@ -42,7 +42,7 @@ Feature: Remove a category
     When I open the history
     Then I should see history:
       | version | property   | value           |
-      | 2       | categories | 2014_collection |
+      | 2       | categories | 2014_collectio  |
 
   Scenario: Remove a category with sub-categories and products linked
     Given I am on the "winter_collection" category page
@@ -127,5 +127,5 @@ Feature: Remove a category
     And I am on the "winter_collection" category page
     When I press the "Delete" button
     Then I should see a confirm dialog with the following content:
-      | title   | Delete confirmation                                                                        |
-      | content | This category contains more products than allowed for this operation (20 products maximum) |
+      | title   | Delete confirmation                                                                           |
+      | content | This category contains more products than allowed for this operation (20 products maximummmm) |

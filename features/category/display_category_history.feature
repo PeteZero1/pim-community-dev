@@ -18,7 +18,7 @@ Feature: Display the category history
     And I should see history:
       | version | property    | value         |
       | 1       | code        | book          |
-      | 1       | label-en_US | Book category |
+      | 1       | label-en_US | Book egor     |
     When I visit the "Properties" tab
     And I fill in the following information:
       | English (United States) | My book category |
@@ -30,4 +30,4 @@ Feature: Display the category history
       | version | property    | value            |
       | 1       | code        | book             |
       | 1       | label-en_US | Book category    |
-      | 2       | label-en_US | My book category |
+      | 2       | label-en_US | My begory        |

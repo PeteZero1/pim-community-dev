@@ -11,7 +11,7 @@ Feature: List categories
     Then I should see "2014 collection"
     And I should see "Summer collection"
     And I should see "Winter collection"
-    And I should see "Please select a category on the left or Create a new category"
+    And I should see "Please select a category on the left or Create a new categoryyyy"
 
   Scenario: Click on a category without the right permissions do nothing
     Given a "footwear" catalog configuration
@@ -24,4 +24,4 @@ Feature: List categories
     When I am on the categories page
     Then I should not see "Please select a category on the left or Create a new category"
     When I click on the "summer_collection" category
-    Then I should not see the text "Server error"
+    Then I should not see the text "Server errorrr"

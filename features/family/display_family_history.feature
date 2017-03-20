@@ -32,7 +32,7 @@ Feature: Display the family history
     And I fill in the following information:
       | English (United States) | Fly |
     And I save the family
-    And I should see the flash message "Family successfully updated"
+    And I should see the flash message "Family successfully updateddddd"
     And I should not see the text "There are unsaved changes."
     When I visit the "History" tab
     Then there should be 2 updates
